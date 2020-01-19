@@ -1,0 +1,26 @@
+.routeLengthStops {
+    display: flex;
+    margin: 20px 20px;
+    justify-content: space-around;
+}
+
+.route {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #A0B0B9;
+}
+
+.time {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    color: #4A4A4A;
+}
+

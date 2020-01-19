@@ -1,0 +1,59 @@
+.filterMain {
+    position: absolute;
+    width: 232px;
+    height: 252px;
+    top: 160px;
+    left: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.transplantCounts {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 20px 20px 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #4A4A4A;
+}
+
+.filterContainer {
+    height: 40px;
+    display: flex;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.filterContainer input {
+    height: 19px;
+    width: 19px;
+    margin: 0 10px 0 20px;
+    border: 1px solid #2196F3;
+    box-sizing: border-box;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.filterContainer span {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+
+.filterContainer:hover {
+    background: #F1FCFF;
+    transition: 0.2s;
+}
+
+

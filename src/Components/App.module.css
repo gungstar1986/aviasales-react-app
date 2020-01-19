@@ -1,0 +1,16 @@
+.mainContainer {
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+    height: auto;
+    background: #F3F7FA;
+    border: 1px solid #dadee1;
+}
+.mainLogo {
+    position: absolute;
+    left: 46.88%;
+    right: 46.88%;
+    top: 50px;
+    z-index: 1;
+}
+
